@@ -1,0 +1,145 @@
+.genre-button {
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.genre-button:hover {
+    background-color: #e0e0e0;
+}
+
+.movie-main-div-style {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.movie-div-style {
+    max-width: 200px;
+    text-align: center;
+}
+
+.movie-img-style {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-size: 20px;
+    color: #555;
+}
+
+.pagination-component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: silver;*/
+}
+
+
+.header {
+    height: 33px;
+    width: 99%;
+}
+
+.header-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header-avatar {
+    height: 30px;
+    width: 30px;
+}
+
+.user-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-info-txt {
+    margin: 0;
+}
+
+/*HeaderForMoviesPage*/
+
+.movies-header-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.movies-header-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.header-movies-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-movies-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.home-movies {
+    height: 30px;
+}
+
+/* MovieCard.css */
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;      /* Дозволяє елементам переходити на наступний рядок */
+    justify-content: space-between;  /* Вирівнює фільми по рядках */
+    margin: 0 -10px;     /* Для компенсації відступів карток */
+}
+
+.movie-div-style {
+    width: calc(20% - 20px); /* Ширина 20%, з урахуванням відступу */
+    margin: 10px;           /* Відступи між карточками */
+    background-color: #f9f9f9; /* Легкий фон */
+    border-radius: 8px;      /* Закруглені кути */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легка тінь для бокса */
+    overflow: hidden;        /* Щоб обмежити вміст межами картки */
+    text-align: center;      /* Центрування тексту */
+    transition: transform 0.2s; /* Анімація при наведені */
+}
+
+.movie-div-style:hover {
+    transform: scale(1.05); /* Збільшення при наведені */
+}
+
+.movie-img-style {
+    width: 100%;          /* Висота і ширина зображення на 100% */
+    height: auto;         /* Адаптивна висота */
+}
+
+.movie-title {
+    font-size: 1rem;      /* Розмір шрифта назви фільму */
+    margin: 10px 0;       /* Відступи для назви фільму */
+}
+
